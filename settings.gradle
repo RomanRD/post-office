@@ -1,3 +1,4 @@
 rootProject.name = 'post-office'
 
 includeBuild 'discovery-server'
+includeBuild 'api-gateway'
