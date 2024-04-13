@@ -24,7 +24,7 @@ public class ParcelController {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND);
         }
 
-        return parcelService.getById(id);
+        return byId;
     }
 
     @PostMapping
